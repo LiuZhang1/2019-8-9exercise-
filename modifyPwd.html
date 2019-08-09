@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/modifyPwd.css">
+    <title>modifyPwd</title>
+</head>
+
+<body>
+    <div class="error"></div>
+    <div class="container right-panel-active" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1 class="h1">修改密码</h1>
+                <input type="text" placeholder="用户名" id="username" autocomplete="off">
+                <span class="error_tip"></span>
+                <input type="phone" placeholder="手机" id="userPhone" autocomplete="off">
+                <span class="error_tip"></span>
+                <button type="button" id="v_btn">验证</button>
+                <input type="password" placeholder="新密码" id="userPassword" disabled="">
+                <span class="error_tip"></span>
+                <button type="button" id="sig_btn">确定</button>
+                <a href="./membe.html" class="modifyPwd"><span>记起密码？</span></a>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>欢迎光临</h1>
+                    <p>输入您的个人资料，并与我们一起开始旅程</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/modifyPwd.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+</body>
+
+</html>
